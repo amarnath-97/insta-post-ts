@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-type Props = {}
+type Props = {
+  post: {
+    media_url: string;
+  };
+};
 
-const Post = ({image}:any) => {
+const Post = ({ post }: Props) => {
   return (
     <div className="image w-[300px]">
-      <img src={image.media_url} alt="" className="w-full h-full" />
+      <img src={post.media_url} alt="" className="w-full h-full" />
     </div>
-  )
-}
+  );
+};
 
 export default Post;

@@ -54,7 +54,7 @@ function App() {
         </div>
       )}
 
-      <PostGallery images={userPosts} />
+      <PostGallery posts={userPosts} />
     </div>
   );
 }
