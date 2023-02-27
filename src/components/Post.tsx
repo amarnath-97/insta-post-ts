@@ -10,7 +10,7 @@ type Props = {
 const Post = ({ post }: Props) => {
     console.log(post);
   return (
-    <div className="image w-[300px]">
+    <div className="image w-[300px] shadow-md">
       <img src={post.media_url} alt={post.caption} className="w-full h-full" />
     </div>
   );
