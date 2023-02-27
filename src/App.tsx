@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import "./App.css";
-import PostGallery from "./components/PostGallery";
+import PostList from "./components/PostList";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -54,7 +54,7 @@ function App() {
         </div>
       )}
 
-      <PostGallery posts={userPosts} />
+      <PostList posts={userPosts} />
     </div>
   );
 }

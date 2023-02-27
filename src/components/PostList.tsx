@@ -4,7 +4,7 @@ type Props = {
     posts: never[]
 }
 
-const PostGallery = ({posts}: Props) => {
+const PostList = ({posts}: Props) => {
     
   return (
     <div className="mt-6 image-gallery w-[80%] h-auto mx-auto my-0 grid grid-cols-4 justify-center gap-2">
@@ -15,4 +15,4 @@ const PostGallery = ({posts}: Props) => {
   )
 }
 
-export default PostGallery;
+export default PostList;
