@@ -2,7 +2,7 @@ import React from 'react';
 
 type Props = {}
 
-const Post = ({image}) => {
+const Post = ({image}:any) => {
   return (
     <div className="image w-[300px]">
       <img src={image.media_url} alt="" className="w-full h-full" />
